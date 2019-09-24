@@ -89,7 +89,7 @@
           </div>
 
 
-          <button type="submit" class="btn btn-primary text-secondary" name="getstarted">Submit</button>
+          <button type="submit" class="btn btn-primary text-secondary" name="getstarted" onclick="showLoginModal()">Submit</button>
 
         </div>
         <div class="col-md-6 col-sm-12">
@@ -123,6 +123,22 @@
 
 
     </form>
+
+    <script>
+    <script>
+      function showLoginModal(){   
+          $.ajax({
+            url:'index.php',
+            type:"GET",
+            cache:false,
+            success:function(html){
+              $("#elegantModalForm").html(html);
+              $('#elegantModalForm').modal();
+            }
+          });
+          event.preventDefault();
+      }
+    </script>
 
   </div>
   <?php

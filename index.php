@@ -51,7 +51,7 @@ session_start();
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link mr-5 text-white" href="dashboard.php" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#elegantModalForm">Login</a>
+                  <a class="nav-link mr-5 text-white" href="dashboard.php" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#elegantModalForm" id="modal">Login</a>
 
 
                 </li>
@@ -214,7 +214,7 @@ session_start();
                   ?>
                   <script type="text/javascript">
                     window.setTimeout(function() {
-                      window.location.href = 'dashboard.php';
+                      window.location.href = 'profilepage.php';
                     }, 0);
                   </script>
               <?php

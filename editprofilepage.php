@@ -81,7 +81,7 @@ require 'sessiongetstarted.php';
                             <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="5" placeholder="" name="bio" value="<?php echo $row['bio'] ?>"></textarea>
                         </div>
                     </div>
-                    <input type="submit" name="btn" class="btn btn-primary" value="Save Changes">
+                    <a href="profilepage.php"><input type="submit" name="btn" class="btn btn-primary" value="Save Changes"></a>
                     <span></span>
                     <input type="reset" class="btn btn-default" value="Cancel">
             </div>

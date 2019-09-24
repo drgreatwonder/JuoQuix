@@ -37,7 +37,7 @@ require 'sessiongetstarted.php';
                         <input type="file" class="form-control" name="profile_pix">
 
 
-                        <input type="submit" name="btn" class="btn btn-primary" value="Save Changes">
+                        <a href="profilepage.php"><input type="submit" name="btn" class="btn btn-primary" value="Save Changes"></a>
                         <span></span>
                         <input type="reset" class="btn btn-default" value="Cancel">
 
