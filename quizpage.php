@@ -24,7 +24,7 @@ require 'sessiongetstarted.php';
 	<br>
 
 
-	<form method="POST" action="resultpage.php">
+	
 
 	<?php
 	$sql = "SELECT * FROM questions ORDER BY RAND()";
@@ -46,6 +46,7 @@ require 'sessiongetstarted.php';
 		echo "<br><br>";
 		
 		?>
+		<form method="POST" action="resultpage.php">
 		<input type="submit" name="submit" value="Submit">
 	   
 	   </form>
