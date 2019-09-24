@@ -193,8 +193,8 @@ session_start();
               </div>
 
               <div class="modal-footer mx-5 pt-3 mb-1">
-                <p class="font-small grey-text">Not a member? <a href="getstarted.php" class="blue-text ml-1">
-                    Sign Up</a></p>
+                <p class="font-small text-secondary">Not a member?<a href="getstarted.php" class="blue-text ml-1">
+                Sign Up</a></p>
               </div>
               <?php
 
