@@ -172,12 +172,12 @@ session_start();
             <!--Body-->
             <form method="post" enctype="multipart/form-data">
               <div class="md-form mb-5">
-                <input type="text" id="" name="username" class="form-control validate">
+                <input type="text" id="" name="username" class="form-control validate" required>
                 <label data-error="wrong" data-success="right" for="Form-email1">Your Username</label>
               </div>
 
               <div class="md-form pb-3">
-                <input type="password" id="" name="password" class="form-control validate">
+                <input type="password" id="" name="password" class="form-control validate" required>
                 <label data-error="wrong" data-success="right" for="Form-pass1">Your password</label>
                 <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="fpasswordpage.php" class="blue-text ml-1">
                     Password?</a></p>
@@ -213,7 +213,7 @@ session_start();
                   ?>
                   <script type="text/javascript">
                     window.setTimeout(function() {
-                      window.location.href = 'profilepage.php';
+                      window.location.href = 'dashboard.php';
                     }, 0);
                   </script>
               <?php
