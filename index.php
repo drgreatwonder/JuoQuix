@@ -71,9 +71,10 @@ session_start();
 #4B515D">
         </div>
         <h1 class="display-4">JuoQuix<h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p class="lead">BRIDGING THE GAP YOUR LEARNING CURVE</p>
 
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p>We test your general knowledge, ability, and point you in the right direction. We improve your ability to identify and solve problems both at corporate and coding levels.
+</p>
             <a class="btn btn-primary btn-lg" href="getstarted.php" role="button">Get Started</a>
 
 
